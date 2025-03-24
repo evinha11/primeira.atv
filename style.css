@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#conteudo, #primos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.primo-box {
+    background-color: #222;
+    color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
